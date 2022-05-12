@@ -1,0 +1,688 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.navbar {
+  background-color: black;
+  height: 44px;
+}
+
+.navbar .phone {
+  margin-left: 20%;
+  width: 13px;
+  margin-top: 1%;
+}
+
+.navbar .number {
+  position: absolute;
+  color: #fff;
+  font-family: 'PT Sans';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #969696;
+  margin-left: 23%;
+  margin-top: -1.2%;
+}
+
+.navbar .close {
+  width: 14px;
+  margin-left: 53%;
+  margin-top: 1%;
+}
+
+.navbar .voyti {
+  position: absolute;
+  color: #fff;
+  font-family: 'PT Sans';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #969696;
+  margin-left: 76%;
+  margin-top: -1.4%;
+}
+
+.header {
+  background: #0F0F0F;
+  height: 80px;
+}
+
+.header h1 {
+  font-family: 'Post No Bills Jaffna';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  color: #FFFFFF;
+  margin-top: 0.8%;
+  position: absolute;
+  margin-left: 20%;
+}
+
+.header .Понравилось {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-left: 50%;
+  margin-top: 2.5%;
+  position: absolute;
+}
+
+.header .личный {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #969696;
+  margin-left: 60%;
+  margin-top: 2.5%;
+  position: absolute;
+}
+
+.header .настройки {
+  position: absolute;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #969696;
+  margin-left: 71.5%;
+  margin-top: 2.5%;
+}
+
+.header .backet {
+  margin-left: 80%;
+  margin-top: 2.2%;
+  position: absolute;
+}
+
+.header .sreach {
+  position: absolute;
+  margin-left: 83%;
+  margin-top: 2.2%;
+}
+
+.first-screen {
+  background: url(../image/person.png);
+  height: 620px;
+  background-size: cover;
+}
+
+.first-screen .box {
+  border: 5px solid white;
+  width: 320px;
+  height: 320px;
+  margin-left: 37%;
+  margin-top: 10%;
+  position: absolute;
+}
+
+.first-screen .box h1 {
+  text-align: center;
+  color: #fff;
+  margin-top: 27%;
+}
+
+.first-screen .box hr {
+  width: 179px;
+  margin-left: 21%;
+  margin-top: 2%;
+}
+
+.first-screen .box h3 {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-top: 2%;
+  font-family: Calibri;
+}
+
+.first-screen p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-top: 37%;
+  margin-left: 20%;
+  position: absolute;
+}
+
+.new-collection .box {
+  background: url(../image/black.png);
+  height: 75%;
+  width: 57%;
+  position: absolute;
+  color: #fff;
+}
+
+.new-collection .box h1 {
+  text-align: center;
+  margin-top: 5%;
+}
+
+.new-collection .box hr {
+  width: 120px;
+  margin-left: 43%;
+  margin-top: 2%;
+}
+
+.new-collection .box .card {
+  background: url(../image/soat_background.png);
+  position: absolute;
+  margin-top: 10%;
+  margin-left: 4%;
+  width: 200px;
+  height: 200px;
+}
+
+.new-collection .box .card img {
+  width: 150px;
+  margin-left: 10%;
+  margin-top: 10%;
+}
+
+.new-collection .box .card h5 {
+  margin-top: 110%;
+}
+
+.new-collection .box .card h6 {
+  margin-top: 2%;
+}
+
+.new-collection .box .card_one {
+  background: url(../image/soat_background.png);
+  position: absolute;
+  margin-top: 10%;
+  margin-left: 34%;
+  width: 200px;
+  height: 200px;
+}
+
+.new-collection .box .card_one img {
+  width: 150px;
+  margin-left: 10%;
+  margin-top: 10%;
+}
+
+.new-collection .box .card_one h5 {
+  margin-top: 110%;
+}
+
+.new-collection .box .card_one h6 {
+  margin-top: 2%;
+}
+
+.new-collection .box .card_two {
+  background: url(../image/soat_background.png);
+  position: absolute;
+  margin-top: 10%;
+  margin-left: 64%;
+  width: 200px;
+  height: 200px;
+}
+
+.new-collection .box .card_two img {
+  width: 150px;
+  margin-left: 10%;
+  margin-top: 10%;
+}
+
+.new-collection .box .card_two h5 {
+  margin-top: 110%;
+}
+
+.new-collection .box .card_two h6 {
+  margin-top: 2%;
+}
+
+.new-collection img {
+  position: absolute;
+  width: 600px;
+  margin-left: 55.5%;
+}
+
+.collection img {
+  position: absolute;
+  width: 750px;
+  margin-top: 36.87%;
+}
+
+.collection .box {
+  background: url(../image/black.png);
+  width: 600px;
+  position: absolute;
+  height: 514px;
+  margin-top: 36.7%;
+  margin-left: 55.5%;
+}
+
+.collection .box h2 {
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  margin-top: 15%;
+}
+
+.collection .box hr {
+  width: 120px;
+  margin-left: 40%;
+  margin-top: 5%;
+}
+
+.collection .box p {
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+  margin-top: 10%;
+}
+
+.collection .box button {
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  width: 311px;
+  height: 47px;
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  border: 1px solid #FFFFFF;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-left: 25%;
+  margin-top: 10%;
+}
+
+.new-goods {
+  background: url(../image/black.png);
+  height: 1150px;
+  position: absolute;
+  width: 100%;
+  margin-top: 74%;
+}
+
+.new-goods h2 {
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  margin-top: 10%;
+}
+
+.new-goods hr {
+  width: 120px;
+  margin-left: 45%;
+  margin-top: 5%;
+}
+
+.new-goods .card {
+  background: url(../image/soat_background.png);
+  position: absolute;
+  margin-top: 10%;
+  margin-left: 10%;
+  width: 250px;
+  height: 250px;
+}
+
+.new-goods .card img {
+  width: 200px;
+  margin-left: 9%;
+  margin-top: 10%;
+}
+
+.new-goods .card h5 {
+  color: #fff;
+  margin-top: 15%;
+  font-size: 18px;
+}
+
+.new-goods .card h6 {
+  color: #fff;
+  margin-top: 5%;
+  font-size: 16px;
+}
+
+.new-goods .card_one {
+  background: url(../image/soat_background.png);
+  position: absolute;
+  margin-top: 10%;
+  margin-left: 30%;
+  width: 250px;
+  height: 250px;
+}
+
+.new-goods .card_one img {
+  width: 200px;
+  margin-left: 9%;
+  margin-top: 10%;
+}
+
+.new-goods .card_one h5 {
+  color: #fff;
+  margin-top: 15%;
+  font-size: 18px;
+}
+
+.new-goods .card_one h6 {
+  color: #fff;
+  margin-top: 5%;
+  font-size: 16px;
+}
+
+.new-goods .card_two {
+  background: url(../image/soat_background.png);
+  position: absolute;
+  margin-top: 10%;
+  margin-left: 50%;
+  width: 250px;
+  height: 250px;
+}
+
+.new-goods .card_two img {
+  width: 200px;
+  margin-left: 9%;
+  margin-top: 10%;
+}
+
+.new-goods .card_two h5 {
+  color: #fff;
+  margin-top: 15%;
+  font-size: 18px;
+}
+
+.new-goods .card_two h6 {
+  color: #fff;
+  margin-top: 5%;
+  font-size: 16px;
+}
+
+.new-goods .card_three {
+  background: url(../image/soat_background.png);
+  position: absolute;
+  margin-top: 10%;
+  margin-left: 70%;
+  width: 250px;
+  height: 250px;
+}
+
+.new-goods .card_three img {
+  width: 200px;
+  margin-left: 9%;
+  margin-top: 10%;
+}
+
+.new-goods .card_three h5 {
+  color: #fff;
+  margin-top: 15%;
+  font-size: 18px;
+}
+
+.new-goods .card_three h6 {
+  color: #fff;
+  margin-top: 5%;
+  font-size: 16px;
+}
+
+.new-goods .card_four {
+  background: url(../image/soat_background.png);
+  position: absolute;
+  margin-top: 38%;
+  margin-left: 10%;
+  width: 250px;
+  height: 250px;
+}
+
+.new-goods .card_four img {
+  width: 200px;
+  margin-left: 9%;
+  margin-top: 10%;
+}
+
+.new-goods .card_four h5 {
+  color: #fff;
+  margin-top: 15%;
+  font-size: 18px;
+}
+
+.new-goods .card_four h6 {
+  color: #fff;
+  margin-top: 5%;
+  font-size: 16px;
+}
+
+.new-goods .card_five {
+  background: url(../image/soat_background.png);
+  position: absolute;
+  margin-top: 38%;
+  margin-left: 30%;
+  width: 250px;
+  height: 250px;
+}
+
+.new-goods .card_five img {
+  width: 200px;
+  margin-left: 9%;
+  margin-top: 10%;
+}
+
+.new-goods .card_five h5 {
+  color: #fff;
+  margin-top: 15%;
+  font-size: 18px;
+}
+
+.new-goods .card_five h6 {
+  color: #fff;
+  margin-top: 5%;
+  font-size: 16px;
+}
+
+.new-goods .card_six {
+  background: url(../image/soat_background.png);
+  position: absolute;
+  margin-top: 38%;
+  margin-left: 50%;
+  width: 250px;
+  height: 250px;
+}
+
+.new-goods .card_six img {
+  width: 200px;
+  margin-left: 9%;
+  margin-top: 10%;
+}
+
+.new-goods .card_six h5 {
+  color: #fff;
+  margin-top: 15%;
+  font-size: 18px;
+}
+
+.new-goods .card_six h6 {
+  color: #fff;
+  margin-top: 5%;
+  font-size: 16px;
+}
+
+.new-goods .card_seven {
+  background: url(../image/soat_background.png);
+  position: absolute;
+  margin-top: 38%;
+  margin-left: 70%;
+  width: 250px;
+  height: 250px;
+}
+
+.new-goods .card_seven img {
+  width: 200px;
+  margin-left: 9%;
+  margin-top: 10%;
+}
+
+.new-goods .card_seven h5 {
+  color: #fff;
+  margin-top: 15%;
+  font-size: 18px;
+}
+
+.new-goods .card_seven h6 {
+  color: #fff;
+  margin-top: 5%;
+  font-size: 16px;
+}
+
+.our-brands {
+  background: url(../image/logo_background.png);
+  height: 362px;
+  width: 100%;
+  margin-top: 158%;
+  position: absolute;
+}
+
+.our-brands h1 {
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  margin-top: 5%;
+  font-size: 36px;
+}
+
+.our-brands hr {
+  width: 120px;
+  margin-left: 45%;
+  margin-top: 5%;
+}
+
+.our-brands .fine {
+  width: 255px;
+  margin-left: 10%;
+  margin-top: 2%;
+}
+
+.our-brands .fine1 {
+  margin-left: 2%;
+}
+
+.our-brands .fine2 {
+  margin-left: 2%;
+}
+
+.our-brands .fine3 {
+  margin-left: 2%;
+}
+
+.footer {
+  background: url(../image/footer.png);
+  background-size: cover;
+  height: 400px;
+  width: 100%;
+  position: absolute;
+  margin-top: 184%;
+}
+
+.footer h2 {
+  color: #fff;
+  margin-left: 11%;
+  margin-top: 5%;
+  text-transform: uppercase;
+  font-size: 24px;
+}
+
+.footer p {
+  color: #fff;
+  font-size: 14px;
+  margin-left: 11%;
+  margin-top: 5%;
+}
+
+.footer .Категории {
+  margin-left: 35%;
+  margin-top: -19%;
+}
+
+.footer .Категории .chas {
+  margin-left: 11%;
+  margin-top: 7.5%;
+}
+
+.footer .Категории .chas1 {
+  margin-left: 2%;
+}
+
+.footer .Категории .izdelya {
+  margin-top: 9%;
+  margin-left: -21.5%;
+  position: absolute;
+}
+
+.footer .Категории .izdelya1 {
+  margin-top: 9%;
+  margin-left: -8%;
+  position: absolute;
+}
+
+.footer .РАссылка h2 {
+  text-transform: uppercase;
+  margin-left: 70%;
+  margin-top: -10.5%;
+  font-size: 24px;
+}
+
+.footer .РАссылка p {
+  margin-left: 70%;
+  line-height: 21px;
+}
+
+.footer .РАссылка input {
+  width: 210px;
+  height: 42px;
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.4);
+  cursor: pointer;
+  margin-left: 70%;
+  margin-top: 1%;
+}
+
+.footer .РАссылка ::-webkit-input-placeholder {
+  color: black;
+  opacity: 0.7;
+}
+
+.footer .РАссылка :-ms-input-placeholder {
+  color: black;
+  opacity: 0.7;
+}
+
+.footer .РАссылка ::-ms-input-placeholder {
+  color: black;
+  opacity: 0.7;
+}
+
+.footer .РАссылка ::placeholder {
+  color: black;
+  opacity: 0.7;
+}
+
+.footer .РАссылка button {
+  width: 141px;
+  height: 41px;
+  background-color: #0F0F0F;
+  color: #fff;
+  border: none;
+  margin-left: -0.3%;
+  cursor: pointer;
+}
+/*# sourceMappingURL=main.css.map */

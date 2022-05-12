@@ -1,0 +1,589 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    background-color: black;
+    height: 44px;
+    .phone{
+        margin-left: 20%;
+        width: 13px;
+        margin-top: 1%;
+    }
+    .number{
+        position: absolute;
+        color: #fff;
+        font-family: 'PT Sans';
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        color: #969696;
+        margin-left: 23%;
+        margin-top: -1.2%;
+    }
+    .close{
+        width: 14px;
+        margin-left: 53%;
+        margin-top: 1%;
+    }
+    .voyti{
+        position: absolute;
+        color: #fff;
+        font-family: 'PT Sans';
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        color: #969696;
+        margin-left: 76%;
+        margin-top: -1.4%;
+    }
+}
+
+.header{
+    background: #0F0F0F;
+    height: 80px;
+    h1{
+        font-family: 'Post No Bills Jaffna';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 54px;
+        color: #FFFFFF;
+        margin-top: 0.8%;
+        position: absolute;
+        margin-left: 20%;
+    }
+    .Понравилось{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin-left: 50%;
+        margin-top: 2.5%;
+        position: absolute;
+    }
+    .личный{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+        text-transform: uppercase;
+        color: #969696;
+        margin-left: 60%;
+        margin-top: 2.5%;
+        position: absolute;
+    }
+    .настройки{
+        position: absolute;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+        text-transform: uppercase;
+        color: #969696;
+        margin-left: 71.5%;
+        margin-top: 2.5%;
+    }
+    .backet{
+        margin-left: 80%;
+        margin-top: 2.2%;
+        position: absolute;
+    }
+    .sreach{
+        position: absolute;
+        margin-left: 83%;
+        margin-top: 2.2%;
+    }
+}
+
+.first-screen{
+    background: url(../image/person.png);
+    height: 620px;
+    background-size: cover;
+    .box{
+        border: 5px solid white;
+        width: 320px;
+        height: 320px;
+        margin-left: 37%;
+        margin-top: 10%;
+        position: absolute;
+        h1{
+            text-align: center;
+            color: #fff;
+            margin-top: 27%;
+        }
+        hr{
+            width: 179px;
+            margin-left: 21%;
+            margin-top: 2%;
+        }
+        h3{
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 28px;
+            text-align: center;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            margin-top: 2%;
+            font-family: Calibri;
+        }
+    }
+        p{
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 150%;          
+            text-align: center;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            margin-top: 37%;
+            margin-left: 20%;
+            position: absolute;
+        }
+}
+
+.new-collection{
+    .box{
+        background: url(../image/black.png);
+        height: 75%;
+        width: 57%;
+        position: absolute;
+        color: #fff;
+        h1{
+            text-align: center;
+            margin-top: 5%;
+        }
+        hr{
+            width: 120px;
+            margin-left: 43%;
+            margin-top: 2%;
+        }
+        .card{
+            background: url(../image/soat_background.png);
+            position: absolute;
+            margin-top: 10%;
+            margin-left: 4%;
+            width: 200px;
+            height: 200px;
+            img{
+                width: 150px;
+                margin-left: 10%;
+                margin-top: 10%;
+            }
+            h5{
+                margin-top: 110%;
+            }
+            h6{
+                margin-top: 2%;
+            }
+        }
+        .card_one{
+            background: url(../image/soat_background.png);
+            position: absolute;
+            margin-top: 10%;
+            margin-left: 34%;
+            width: 200px;
+            height: 200px;
+            img{
+                width: 150px;
+                margin-left: 10%;
+                margin-top: 10%;
+            }
+            h5{
+                margin-top: 110%;
+            }
+            h6{
+                margin-top: 2%;
+            }
+        }
+        .card_two{
+            background: url(../image/soat_background.png);
+            position: absolute;
+            margin-top: 10%;
+            margin-left: 64%;
+            width: 200px;
+            height: 200px;
+            img{
+                width: 150px;
+                margin-left: 10%;
+                margin-top: 10%;
+            }
+            h5{
+                margin-top: 110%;
+            }
+            h6{
+                margin-top: 2%;
+            }
+        
+        }
+    }
+    img{
+        position: absolute;
+        width: 600px;
+        margin-left: 55.5%;
+    }
+}
+
+.collection{
+    img{
+        position: absolute;
+        width: 750px;
+        margin-top: 36.87%;
+    }
+    .box{
+        background: url(../image/black.png);
+        width: 600px;
+        position: absolute;
+        height: 514px;
+        margin-top: 36.7%;
+        margin-left: 55.5%;
+        h2{
+            text-transform: uppercase;
+            color: #fff;
+            text-align: center;
+            margin-top: 15%;
+        }
+        hr{
+            width: 120px;
+            margin-left: 40%;
+            margin-top: 5%;
+        }
+        p{
+            text-align: center;
+            color: #fff;
+            font-size: 14px;
+            margin-top: 10%;
+        }
+        button{
+            text-transform: uppercase;
+            font-size: 18px;
+            line-height: 23px;
+            text-align: center;
+            letter-spacing: 0.1em;
+            width: 311px;
+            height: 47px;
+            background-color: transparent;
+            color: #fff;
+            border: none;
+            border: 1px solid #FFFFFF;
+            box-sizing: border-box;
+            margin-left: 25%;
+            margin-top: 10%;
+        }
+    }
+}
+
+.new-goods{
+    background: url(../image/black.png);
+    height: 1150px;
+    position: absolute;
+    width: 100%;
+    margin-top: 74%;
+    h2{
+        text-transform: uppercase;
+        color: #fff;
+        text-align: center;
+        margin-top: 10%;
+    }
+    hr{
+        width: 120px;
+        margin-left: 45%;
+        margin-top: 5%;
+    }
+    .card{
+        background: url(../image/soat_background.png);
+        position: absolute;
+        margin-top: 10%;
+        margin-left: 10%;
+        width: 250px;
+        height: 250px;
+        img{
+            width: 200px;
+            margin-left: 9%;
+            margin-top: 10%;
+        }
+        h5{
+            color: #fff;
+            margin-top: 15%;
+            font-size: 18px;
+        }
+        h6{
+            color: #fff;
+            margin-top: 5%;
+            font-size: 16px;
+        }
+    }
+    .card_one{
+        background: url(../image/soat_background.png);
+        position: absolute;
+        margin-top: 10%;
+        margin-left: 30%;
+        width: 250px;
+        height: 250px;
+        img{
+            width: 200px;
+            margin-left: 9%;
+            margin-top: 10%;
+        }
+        h5{
+            color: #fff;
+            margin-top: 15%;
+            font-size: 18px;
+        }
+        h6{
+            color: #fff;
+            margin-top: 5%;
+            font-size: 16px;
+        }
+    }
+    .card_two{
+        background: url(../image/soat_background.png);
+        position: absolute;
+        margin-top: 10%;
+        margin-left: 50%;
+        width: 250px;
+        height: 250px;
+        img{
+            width: 200px;
+            margin-left: 9%;
+            margin-top: 10%;
+        }
+        h5{
+            color: #fff;
+            margin-top: 15%;
+            font-size: 18px;
+        }
+        h6{
+            color: #fff;
+            margin-top: 5%;
+            font-size: 16px;
+        }
+    }
+    .card_three{
+        background: url(../image/soat_background.png);
+        position: absolute;
+        margin-top: 10%;
+        margin-left: 70%;
+        width: 250px;
+        height: 250px;
+        img{
+            width: 200px;
+            margin-left: 9%;
+            margin-top: 10%;
+        }
+        h5{
+            color: #fff;
+            margin-top: 15%;
+            font-size: 18px;
+        }
+        h6{
+            color: #fff;
+            margin-top: 5%;
+            font-size: 16px;
+        }
+    }
+    .card_four{
+        background: url(../image/soat_background.png);
+        position: absolute;
+        margin-top: 38%;
+        margin-left: 10%;
+        width: 250px;
+        height: 250px;
+        img{
+            width: 200px;
+            margin-left: 9%;
+            margin-top: 10%;
+        }
+        h5{
+            color: #fff;
+            margin-top: 15%;
+            font-size: 18px;
+        }
+        h6{
+            color: #fff;
+            margin-top: 5%;
+            font-size: 16px;
+        }
+    }
+    .card_five{
+        background: url(../image/soat_background.png);
+        position: absolute;
+        margin-top: 38%;
+        margin-left: 30%;
+        width: 250px;
+        height: 250px;
+        img{
+            width: 200px;
+            margin-left: 9%;
+            margin-top: 10%;
+        }
+        h5{
+            color: #fff;
+            margin-top: 15%;
+            font-size: 18px;
+        }
+        h6{
+            color: #fff;
+            margin-top: 5%;
+            font-size: 16px;
+        }
+    }
+    .card_six{
+        background: url(../image/soat_background.png);
+        position: absolute;
+        margin-top: 38%;
+        margin-left: 50%;
+        width: 250px;
+        height: 250px;
+        img{
+            width: 200px;
+            margin-left: 9%;
+            margin-top: 10%;
+        }
+        h5{
+            color: #fff;
+            margin-top: 15%;
+            font-size: 18px;
+        }
+        h6{
+            color: #fff;
+            margin-top: 5%;
+            font-size: 16px;
+        }
+    }
+    .card_seven{
+        background: url(../image/soat_background.png);
+        position: absolute;
+        margin-top: 38%;
+        margin-left: 70%;
+        width: 250px;
+        height: 250px;
+        img{
+            width: 200px;
+            margin-left: 9%;
+            margin-top: 10%;
+        }
+        h5{
+            color: #fff;
+            margin-top: 15%;
+            font-size: 18px;
+        }
+        h6{
+            color: #fff;
+            margin-top: 5%;
+            font-size: 16px;
+        }
+    }
+}
+
+.our-brands{
+    background: url(../image/logo_background.png);
+    height: 362px;
+    width: 100%;
+    margin-top: 158%;
+    position: absolute;
+    h1{
+        text-transform: uppercase;
+        color: #fff;
+        text-align: center;
+        margin-top: 5%;
+        font-size: 36px;
+    }
+    hr{
+        width: 120px;
+        margin-left: 45%;
+        margin-top: 5%;
+    }
+    .fine{
+        width: 255px;
+        margin-left: 10%;
+        margin-top: 2%;
+    }
+    .fine1{
+        margin-left: 2%;
+    }
+    .fine2{
+        margin-left: 2%;
+    }
+    .fine3{
+        margin-left: 2%;
+    }
+}
+
+.footer{
+    background: url(../image/footer.png);
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    position: absolute;
+    margin-top: 184%;
+    h2{
+        color: #fff;
+        margin-left: 11%;
+        margin-top: 5%;
+        text-transform: uppercase;
+        font-size: 24px;
+    }
+    p{
+        color: #fff;
+        font-size: 14px;
+        margin-left: 11%;
+        margin-top: 5%;
+    }
+    .Категории{
+        margin-left: 35%;
+        margin-top: -19%;
+        .chas{
+            margin-left: 11%;
+            margin-top: 7.5%;
+        }
+        .chas1{
+            margin-left: 2%;
+        }
+        .izdelya{
+            margin-top: 9%;
+            margin-left: -21.5%;
+            position: absolute;
+        }
+        .izdelya1{
+            margin-top: 9%;
+            margin-left: -8%;
+            position: absolute;
+        }
+    }
+    .РАссылка{
+        h2{
+            text-transform: uppercase;
+            margin-left: 70%;
+            margin-top: -10.5%;
+            font-size: 24px;
+        }
+        p{
+            margin-left: 70%;
+            line-height: 21px;
+        }
+        input{
+            width: 210px;
+            height: 42px;
+            padding: 15px;
+            background: rgba(255, 255, 255, 0.4);
+            cursor: pointer;
+            margin-left: 70%;
+            margin-top: 1%;
+        }
+        ::placeholder{
+            color: black;
+            opacity: 0.7;
+        }
+        button{
+            width: 141px;
+            height: 41px;
+            background-color: #0F0F0F;
+            color: #fff;
+            border: none;
+            margin-left: -0.3%;
+            cursor: pointer;
+        }
+    }
+}
